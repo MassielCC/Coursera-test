@@ -26,11 +26,20 @@ section{
 .primero{
     background: #a0cddb;
 }
+.primero h2{
+    background: rgb(13, 15, 65);
+}
 .segundo{
     background: #73ccb6;
 }
+.segundo h2{
+    background: rgb(14, 48, 28);
+}
 .tercero{
     background: #a0abdb;
+}
+.tercero h2{
+    background: #2b031f;
 }
 h2{
     font-size: 21px;
