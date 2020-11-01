@@ -22,11 +22,12 @@ body{
 }
 .navbar-brand{
     padding-top:25px;
+    height: auto;
 }
 .navbar-brand h1{
     color: #557c3e;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bold;
     text-shadow: 1px 1px 1px #222;
     margin: 0;
@@ -75,4 +76,18 @@ body{
 .navbar-header button.navbar-toggle{
     clear: both;
     margin-top: -30px;
+}
+button.navbar-toggler{
+    background: none;
+    padding: 8px 10px;
+    border: none;
+    margin: 12px 10px 0px 0px;
+}
+button.navbar-toggler i{
+    color: #61122f;
+} 
+@media (min-width: 768px){
+    button.navbar-toggler {
+        visibility: hidden;
+    }
 }
