@@ -6,72 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Module3</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery-3.4.1.min.js"></script>
 </head>
 <body>
-
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
     <header>
 
-        <nav id="header-nav" class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <div class="navbar-header">
-                    <a href="index.html" class="pull-left visible-md visible-lg">
-                        <div id="logo-img" alt="Logo image"></div>
-                    </a>
+      <nav id="header-nav" class="navbar navbar-expand-lg navbar-light">
 
-                    <div class="navbar-brand">
-                        <a href="index.html"><h1>David Chu's China Bistro</h1></a>
-                        <p>
-                            <img src="https://www.davidchuschinabistro.com/images/star-k-logo.png" alt="Kosher certification">
-                            <span>Kosher Certified</span>
-                        </p>
-                    </div>
-                    <button class="navbar-toggler pull-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"><i class="fas fa-bars fa-2x"></i></span>
-                    </button>
-                </div>
+        <div class="container">
+          <div class="navbar-brand"> 
+            <a  href="index.html"><h1>Foood, LLC</h1></a>
+          </div>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent" aria-expanded="false">
-                    <ul id="nav-list" class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="#" class="nav-link">
-                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
-                                    <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
-                                  </svg>
-                                <br class="hidden-xs">Menu</a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-info-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
-                                </svg>
-                                <br class="hidden-xs">About</a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-award-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M8 0l1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
-                                    <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
-                                  </svg>
-                                <br class="hidden-xs">Award</a>
-                        </li>
-                        <li id="phone" class="hidden-xs">
-                            <a href="#">
-                                <span>410-602-5008</span></a><div>We Delivery</div>
-                        </li>
-                    </ul>
-                </div>
+          <button id="menu-button" class="navbar-toggler navbar-right visible-xs" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" ><i class="fas fa-bars fa"></i></span>
+          </button>
 
-            </div>
-        </nav>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto navbar-right">
+              <li class="nav-item">
+                <a class="nav-link visible-xs" href="#chicken" id="primero">Chicken<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link visible-xs" href="#" id="segundo">Beef</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link visible-xs" href="#" id="tercero">Sushi</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
 
     </header>
+
+    <h1 class="text-center" id="main-title">Our Menu</h1>
+      <div class="container">
+        <div id="chicken" class="col-xs-12">
+          <section>
+            <h2 class="text-center">Chicken</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum tempore quasi et sunt repellat omnis dolores corporis beatae laudantium nobis dolore illo earum sit voluptatum, hic sequi quam, doloribus inventore!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum tempore quasi et sunt repellat omnis dolores corporis beatae laudantium nobis dolore illo earum sit voluptatum, hic sequi quam, doloribus inventore!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum tempore quasi et sunt repellat omnis dolores corporis beatae laudantium nobis dolore illo earum sit voluptatum, hic sequi quam, doloribus inventore!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum tempore quasi et sunt repellat omnis dolores corporis beatae laudantium nobis dolore illo earum sit voluptatum, hic sequi quam, doloribus inventore!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum tempore quasi et sunt repellat omnis dolores corporis beatae laudantium nobis dolore illo earum sit voluptatum, hic sequi quam, doloribus inventore!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum tempore quasi et sunt repellat omnis dolores corporis beatae laudantium nobis dolore illo earum sit voluptatum, hic sequi quam, doloribus inventore!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum tempore quasi et sunt repellat omnis dolores corporis beatae laudantium nobis dolore illo earum sit voluptatum, hic sequi quam, doloribus inventore!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum tempore quasi et sunt repellat omnis dolores corporis beatae laudantium nobis dolore illo earum sit voluptatum, hic sequi quam, doloribus inventore!</p>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum tempore quasi et sunt repellat omnis dolores corporis beatae laudantium nobis dolore illo earum sit voluptatum, hic sequi quam, doloribus inventore!
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum tempore quasi et sunt repellat omnis dolores corporis beatae laudantium nobis dolore illo earum sit voluptatum, hic sequi quam, doloribus inventore!
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum tempore quasi et sunt repellat omnis dolores corporis beatae laudantium nobis dolore illo earum sit voluptatum, hic sequi quam, doloribus inventore!
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum tempore quasi et sunt repellat omnis dolores corporis beatae laudantium nobis dolore illo earum sit voluptatum, hic sequi quam, doloribus inventore!</p>
+
+          </section>
+        </div>
+
+      </div>
 
     <footer>
 

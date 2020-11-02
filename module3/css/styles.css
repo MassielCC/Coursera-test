@@ -4,90 +4,68 @@
     box-sizing: border-box;
 }
 body{
-    background: #61122f;
     font-size: 16px;
     font-family: "Montserrat", Arial, sans-serif;
-    color: #fff;
 }
 #header-nav{
-    background-color: #f6b319;
+    background-color: #605fa1;
     border: 0;
 }
-#logo-img{
-    background: url('https://www.shiva.com/Files/Directory%20Folders/19822_1.png') no-repeat;
-    background-size: contain;
-    width: 150px;
-    height: 150px;
-    margin: 10px 15px 10px 0px;
-}
-.navbar-brand{
-    padding-top:25px;
-    height: auto;
-}
 .navbar-brand h1{
-    color: #557c3e;
-    text-transform: uppercase;
-    font-size: 28px;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px #222;
-    margin: 0;
-    line-height: .75;
+    color: #fff;
+    padding: 5px 0px;
 }
 .navbar-brand a:hover, .navbar-brand a:focus{
     text-decoration: none;
 }
-.navbar-brand p{
-    color: #000;
-    text-transform: uppercase;
-    font-size: .7em;
-    margin-top: 15px;
-}
-.navbar-brand span{
-    vertical-align: middle;
-}
-#nav-list{
-    margin-top: 10px;
-}
-#nav-list a{
-    color: #951C49;
-    text-align: center;
-}
-#nav-list a:hover{
-    background: #e7e7e7;
-}
-#nav-list a span{
-    font-size: 1.8em;
-}
-#phone{
-    margin-top: 5px;
-}
-#phone a{
-    text-align: right;
-    padding-bottom: 0;
-}
-#phone div{
-    color: #557c3e;
-    text-align: right;
-    padding-right: 15px;
-}
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
-    border:1px solid #61122f;
-}
-.navbar-header button.navbar-toggle{
-    clear: both;
-    margin-top: -30px;
-}
 button.navbar-toggler{
-    background: none;
-    padding: 8px 10px;
-    border: none;
-    margin: 12px 10px 0px 0px;
+    border: 1px solid #fff
 }
-button.navbar-toggler i{
-    color: #61122f;
-} 
-@media (min-width: 768px){
-    button.navbar-toggler {
-        visibility: hidden;
+.navbar-light .navbar-toggler-icon {
+    background-image: none;
+}
+.navbar-toggler-icon{
+    height: auto;
+    width: auto;
+}
+.navbar-light .navbar-toggler {
+    border-color: white;
+    padding: 5px 8px;
+}
+span.navbar-toggler-icon > i{
+    color: white;
+}
+#primero, #segundo, #tercero{
+    text-align: center;
+    color: #fff;
+}
+#main-title{
+    font-size: 30px;
+    padding: 5px 0px;
+    margin-bottom: 40px;
+}
+#chicken{
+    background: #aedbff;
+    padding: 25px;
+}
+#chicken h2{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    
+}
+@media (min-width: 769px) and (max-width: 991px){
+    .container{
+        position: relative;
+    }
+    .navbar-brand{
+        position: absolute;
+        left: 0;
+    }
+}
+@media (max-width: 768px){
+    .navbar-brand{
+        margin-right: 50%;
     }
 }
