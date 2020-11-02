@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    font-size: 16px;
     font-family: "Montserrat", Arial, sans-serif;
+    font-size: 16px;
 }
 #header-nav{
     background-color: #605fa1;
