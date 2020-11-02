@@ -69,3 +69,8 @@ span.navbar-toggler-icon > i{
         margin-right: 50%;
     }
 }
+@media (max-width: 419px){
+    .navbar-brand{
+        margin-right: 0;
+    }
+}
