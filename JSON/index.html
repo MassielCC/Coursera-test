@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script src="ajax-utils.js"></script>
+	<script src="script.js"></script>
+	<title>JSON</title>
+</head>
+<body>
+	<style>
+		body{
+			font-family:'Arial Narrow', Arial, sans-serif;
+		}
+	</style>
+
+	<h1>Processing JASON</h1>
+	<h2>JASON: JavaScript Object Notation</h2>
+	<ul>
+		<li>Simple textual representation of data</li>
+		<li>Fácil de leer y escribir para humanos</li>
+		<li>Completamente independiente de cualquier formato</li>
+	</ul>
+	<h2>JSON Syntax Rules</h2>
+	<ul>
+		<li>Property names must be in double quotes ("...")</li>
+		<li>String values must be in double quotes</li>
+		<li>Syntax for everything else is exactly like for object literal</li>
+		<li><p>example<br>
+			{ "firstName" : "Massiel",<br>
+			  "lastName" : "Colla", <br>
+			  "likesChineseFood" : false,<br>
+			  "numberOfDisplays" : 2 <br>
+			}
+		</p></li>
+		<li>JSON : not a JavaScript object literal</li>
+		<li>JSON is just a string</li>
+		<li>The syntax of JASON is based on object literal</li>
+	</ul>
+	
+	<h3>Convertir de JSON string a object</h3>
+	<p>var obj = JSON.parse(jsonString);</p>
+
+	<h3>Convertir de object a JSON string</h3>
+	<p>var str = JSON.stringify(obj);</p>
+
+	<h1 id="title">Exercise</h1>
+	<p>
+		<button>
+			Say Hello To someone on the Server!
+		</button>
+	</p>
+
+	<div id="content"></div>
+
+</body>
+</html>
