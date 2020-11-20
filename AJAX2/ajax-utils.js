@@ -23,7 +23,7 @@
             var request= getRequestObject();
             request.onreadystatechange = 
                 function(){
-                    handleResponse(requestUrl, responseHandler);
+                    handleResponse(request , responseHandler);
                 };
             request.open("GET", requestUrl, true);
             request.send(null); //for POST only
@@ -34,14 +34,14 @@
      //and not an error
 
      function handleResponse(request, responseHandler){
-         if( (request.readyState == 4)&& (request.status == 200)){
+         if((request.readyState == 4) && (request.status == 200)){
              responseHandler(request);
          }
+         
      }
 
      //Expose utility to the global object
      global.$ajaxUtils=ajaxUtils;
 
 })(window);
-
-// Error 
+// ERROR CORS -> abrir con Chrome no funciona, abrir en localhost

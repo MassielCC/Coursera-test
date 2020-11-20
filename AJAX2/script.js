@@ -1,18 +1,18 @@
 document.addEventListener("DOMContentLoaded",
     function (event){
-            //unobstrusive event binding
-            document.querySelector("button")
-                .addEventListener("click", function(){
+        //unobstrusive event binding
+        document.querySelector("button")
+            .addEventListener("click", function(){
 
-                    //Call server to get the name
-                    $ajaxUtils
-                        .sendGetRequest("/data/name.txt",
-                            function (request){
-                                var name=request.responseText;
+                //Call server to get the name
+                $ajaxUtils
+                .sendGetRequest("/data/name.txt",
+                function (request){
+                    var name = request.responseText;
                             
-                                document.querySelector("#content")
-                                .innerHTML = "<h2>Hello " + self.name + "!";
-                        });
-            });
+                    document.querySelector("#content")
+                    .innerHTML = "<h2>Hello " + name + "!";
+                });
+        });
     }
 );
